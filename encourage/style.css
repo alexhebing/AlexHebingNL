@@ -1,0 +1,98 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: hotpink;
+	background-size: cover;
+	margin: auto;
+	max-width: 1300px;
+}
+
+h1 {	
+	font-size: 28px;
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: purple;
+}
+
+#myContainer{
+	background-color: purple;
+	margin-right: auto;
+	margin-top: 75px;
+	margin-left: -40%;
+	position: fixed;
+	left: 50%;	
+	width: 80%;
+}
+
+.form {
+	padding: 3px;
+	margin: 3px;
+	font-size: 48px;
+	border: solid;
+}
+
+.inputField{
+	width: 97%;
+    font-size: 48px;
+    margin-top: 25px;
+}
+
+.inputButton {
+	border: solid hotpink 5px;
+	background-color: hotpink;
+	font-size: 42px;
+	margin-top: 25px;
+}
+
+#addedEncouragement{
+	border:solid;
+	border-color: black;
+	padding: 3px;
+	margin: 3px;
+	background-color: hotpink;
+	word-wrap: break-word;
+}
+
+#newEncouragement{
+	color: deeppink;
+}
+
+@media all and (min-width: 768px){
+	h1 {
+		font-size: 72px;
+	}
+}
+
+@media all and (min-width: 986px){
+	h1 {
+		font-size: 92px;
+	}
+
+	#myContainer{
+		width: 250px;
+		margin-top: -75px;
+		margin-left: -125px;
+		position: fixed;
+		top: 50%;
+		left: 50%;
+	}
+
+	.form {
+		font-size: 24px;
+	}
+
+	.inputField{
+	    font-size: 24px;
+	    margin-top: 5px;
+	}
+
+	.inputButton {
+		font-size: 15px;
+		margin-top: 5px;
+	}
+}

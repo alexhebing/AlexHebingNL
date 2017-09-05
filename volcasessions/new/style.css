@@ -1,0 +1,83 @@
+
+body{
+    margin: auto;
+    background-color: #660033;
+    width: 100%;
+    color: lightcoral;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.topnav {
+    overflow: hidden;
+    border-bottom: 1px solid #990033;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: lightcoral;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #990033;
+}
+
+#buttons{
+    float:right;
+    position:relative;
+    left:-50%;
+    text-align:left;
+}
+#buttons ul{
+    list-style:none;
+    position:relative;
+    left:50%;
+}
+
+#buttons li{float:left;position:relative;}
+
+div.content {
+    display: inline-block;
+    width: 98%;
+    margin-top: 50px;   
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    background-color: #990033;
+}
+
+td {
+    height: 120px;
+}
+
+th, td {
+    border-bottom: 1px solid #990033;
+}
+
+img {
+    float: left;
+    width: 120px;
+    height: 120px;
+    margin-right: 15px;
+}
+
+.audioTitle {
+    display: grid;    
+    padding-top: 30px; 
+}

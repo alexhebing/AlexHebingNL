@@ -1,0 +1,55 @@
+body {
+	background-color: hotpink;
+	max-width: 1524px;
+}
+
+#container {
+	margin: auto;
+	text-align: center;
+}
+
+h3 {
+	font-size: 48px;
+	color: royalblue;
+	border-bottom: 2px solid royalblue;
+}
+
+h4 {
+	font-size: 32px;
+	color: royalblue;
+	border: 2px solid royalblue;
+	width: 300px;
+	margin: 25px auto;
+}
+
+#content {
+    margin: auto;
+    display: table;
+}
+
+#image {
+	background-image: url("./cover.png");
+	width: 250px;
+	height: 250px;
+	margin: auto;
+}
+
+#table {
+}
+
+table {
+	margin: auto;
+	font-size: 21px;
+	color: royalblue;
+}
+
+td {
+	text-align: left;
+	width: 250px;
+	word-wrap: break-word;
+}
+
+a {
+	color: royalblue;
+	font-size: 13px;
+}

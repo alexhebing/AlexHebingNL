@@ -1,0 +1,41 @@
+<html>
+<head>
+	
+	<link rel="shortcut icon" href="../love.ico" />
+	<link rel="stylesheet" href="snake.css" />
+	<script type="text/javascript" src="snake.js"></script>
+	<script type="text/javascript" src="snake-grid.js"></script>
+	<script type="text/javascript" src="snake-images.js"></script>
+	<script type="text/javascript" src="snake-events.js"></script>
+	
+	<script type="text/javascript">
+		
+		window.gameLoop = function(){ 
+			Snake.checkCollisions();
+			Snake.move();
+			Snake.drawGrid();
+			setTimeout(window.gameLoop, 125);
+			}
+
+		window.onload = function() {
+			Snake.init('game-screen', 0, window.gameLoop);
+			}
+	</script>
+
+</head>
+
+<body>
+	<div style="position: relative; left: 50%; margin-left: -200px;">
+	<h1>TOUCH</h1>
+	<canvas id="game-screen" width="800" height="600" ></canvas>
+	
+	<img id = "startScreen" src="img/startscreen.png" onclick="hideImage()">
+		<script type="text/javascript">
+			function hideImage(){
+				document.getElementById("startScreen").style.display = "none";
+			}
+		</script>
+	</div>
+</body>
+
+</html>

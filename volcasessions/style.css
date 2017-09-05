@@ -1,0 +1,78 @@
+body {
+	background-color: hotpink;
+	max-width: 1524px;
+}
+
+#container {
+	margin: auto;
+	text-align: center;
+}
+
+h3 {
+	font-size: 48px;
+	color: royalblue;
+	border-bottom: 2px solid royalblue;
+	margin-bottom: -10px;
+}
+
+#menu {
+	margin-bottom: 15px;
+}
+
+#menu a {
+	display: inline-block;
+	color: royalblue;
+	text-decoration: none;
+	margin: 8px;
+}
+
+.mediaplayer {
+	background-color: ghostwhite;
+	max-width: 300px;
+	margin: auto;
+	padding-top: 20px;
+	padding-bottom: 25px;	
+}
+
+.mediaplayerImage {
+	width: 100px;
+    float: left;
+}
+
+.mediaplayerTitle {
+	color: dodgerblue;
+	font-size: 36px;
+    float: left;
+		
+}
+
+audio {
+	margin-top: 5px;
+}
+
+table {
+	margin: auto;
+	margin-top: 10px;
+	font-size: 21px;
+	color: dodgerblue;
+	border: 1px solid;
+	background-color: lightcyan;
+}
+
+td {
+	text-align: left;
+	width: 250px;
+	word-wrap: break-word;
+	border-bottom: 1px solid dodgerblue;
+	text-align: center;
+}
+
+a {
+	color: dodgerblue;
+	font-size: 13px;
+}
+
+.favoritesButton {
+	font-size: 128px;
+	color: royalblue;
+}

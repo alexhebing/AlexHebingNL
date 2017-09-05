@@ -1,0 +1,112 @@
+body {
+	background-color: hotpink;	
+	max-width: 1524px;
+	min-width: 333px
+}
+
+#container {
+	margin: auto;
+	text-align: center;
+	width: 95%;	
+}
+
+h3 {
+	font-size: 48px;
+	color: royalblue;
+	border-bottom: 2px solid royalblue;
+	text-align: center;
+}
+
+#navBarContainer {	
+	margin: auto;
+	max-width: 100%;
+}
+
+#navBar {
+	margin: auto;
+	position: relative;
+	display: table;
+	height: 112px;
+	border: 3px solid royalblue;
+	border-radius: 5px;	
+}
+
+.navElement {
+	background-color: deeppink;	
+	border-radius: 5px;
+	min-width: 100px;
+	max-width: 100px;
+	height: 100px;	
+	float: left;
+	margin: 5px;
+	display: table;
+}
+
+a {
+	text-decoration: none;
+}
+
+.navElement p {
+	display: table-cell; 
+	vertical-align: middle; 
+	text-align: center;
+	max-width: 100px;
+	word-wrap: break-word;
+	color: royalblue;	
+}
+
+.contentField {		
+    margin-top: 25px;    
+    color: royalblue;
+    text-align: left;
+    
+}
+
+#explanationField {
+	width: 45%;
+	float: left;
+	margin-left: 2%;
+	display: none;
+}
+
+#imageField {
+	width: 300px;
+	height: 400px;
+	margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url("img/pooh2.jpg");
+	background-repeat: no-repeat;
+	border-radius: 5px;
+}
+
+@media all and (min-width: 768px){
+	#navBar {
+		min-width: 650px;
+	}	
+}
+
+@media all and (min-width: 986px){
+	#navBar {
+		min-width: 98%;
+	}
+
+	.navElement p:hover {
+		background-color: royalblue;
+		color: deeppink;
+		border-radius: 5px;
+	}	
+
+	#explanationField { 
+    display: block;
+}
+
+	#imageField {
+		margin-right: 2%;
+		float: right;
+	}
+}
+
+@media all and (min-width: 1148px){
+	
+}
