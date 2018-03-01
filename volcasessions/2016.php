@@ -1,13 +1,13 @@
 <?php
 	$fileNames = array();
-	$mp3dir = "./2016mp3s";
+	$mp3dir = "C:/Alex/rommeltjes/2016";
 	$isFavPage = false;
 
 	foreach (new DirectoryIterator($mp3dir) as $file) {
 	  if ($file->isFile()) {
 
 	  	$title = basename($file);
-	  	$path = $mp3dir . '/' . $title;
+	  	$path = '/session/2016' . '/' . $title;
 
 	  	$file = array(
 	  		"title" => basename($file, ".mp3"),

@@ -11,8 +11,7 @@
 		<h3>VOLCA SESSIONS</h3>
 		<div id="menu">
          <a href="2016.php"><h2>2016</h2></a>
-         <a href="2017.1.php"><h2>2017.1</h2></a>
-         <a href="index.php"><h2>2017.2</h2></a>
+         <a href="index.php"><h2>2017</h2></a>
       	</div>
 		<div id="mediaPlayer" class="mediaplayer">
 			<img class="mediaplayerImage" src="img/volcabass.png" />
